@@ -40,7 +40,7 @@ export default function Home() {
         <section className="container grid justify-items-center px-3 md:grid-cols-2 md:space-x-4 xl:px-0">
           <div>
             <h2 className="mb-10 ms-3 text-3xl text-primary md:mb-16 md:ps-0">
-              {/* Every Emotion captured By &quot;SCE&quot; */}
+              Every Emotion captured By &quot;SCE&quot;
             </h2>
             <div className="*:my-3">
               <Image
