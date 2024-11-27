@@ -28,6 +28,7 @@ import {
 } from "@/const/route-paths.const";
 
 export default function Home() {
+  console.log("SCE site")
   return (
     <>
       <main className="mb-16 space-y-16 *:mx-auto">
