@@ -28,7 +28,6 @@ import {
 } from "@/const/route-paths.const";
 
 export default function Home() {
-  console.log("SCE site")
   return (
     <>
       <main className="mb-16 space-y-16 *:mx-auto">
@@ -38,25 +37,25 @@ export default function Home() {
           alt="SCE Banner"
         />
         <section className="container grid justify-items-center px-3 md:grid-cols-2 md:space-x-4 xl:px-0">
-          <div>
-            <h2 className="mb-10 ms-3 text-3xl text-primary md:mb-16 md:ps-0">
+          <div className="*:my-3">
+            <h2 className="ms-3 pb-8 text-3xl text-primary md:ps-0">
               Every Emotion captured By &quot;SCE&quot;
             </h2>
-            <div className="*:my-3">
-              <Image
-                className="rounded-xl"
-                src={imgDummy1}
-                alt="Present Product"
-              />
-              <div className="px-3">
-                <p>
-                  SCE เครื่องดูดไรฝุ่น Mite Remover รุ่น MR1 - รับประกัน 1 ปี
-                </p>
-                <b className="text-xl text-primary">฿ 1,990.-</b>
-              </div>
+
+            <Image
+              className="rounded-xl"
+              src={imgDummy1}
+              alt="Present Product"
+            />
+            <div className="px-3">
+              <p>SCE เครื่องดูดไรฝุ่น Mite Remover รุ่น MR1 - รับประกัน 1 ปี</p>
+              <b className="text-xl text-primary">฿ 1,990.-</b>
             </div>
           </div>
           <div className="*:my-3">
+            <h2 className="ms-3 hidden pb-8 text-3xl text-primary opacity-0 md:flex md:ps-0">
+              Every Emotion captured By &quot;SCE&quot;
+            </h2>
             <Image
               className="rounded-xl"
               src={imgDummy2}
@@ -217,7 +216,7 @@ export default function Home() {
                 alt="Modern building architecture"
               />
             </div>
-            <div className="p-4 md:w-2/5 flex md:flex-initial lg:px-16 [&_p]:text-sm [&_p]:text-gray-500 items-center">
+            <div className="flex items-center p-4 md:w-2/5 md:flex-initial lg:px-16 [&_p]:text-sm [&_p]:text-gray-500">
               <div className="space-y-3 divide-y-2">
                 <div className="space-y-5">
                   <p>เกี่ยวกับ</p>
@@ -236,7 +235,7 @@ export default function Home() {
                       ดูเพิ่มเติม
                       <FontAwesomeIcon
                         icon={faAnglesRight}
-                        className="my-auto ml-2 group-hover:translate-x-1 size-4"
+                        className="my-auto ml-2 size-4 group-hover:translate-x-1"
                       />
                     </Link>
                   </button>
