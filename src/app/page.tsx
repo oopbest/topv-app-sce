@@ -9,15 +9,15 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import Image from "next/image";
-import imgBanner from "@images/banner_9_banner-withtext.png";
-import imgDummy1 from "@images/dummy-home-sce-present-1.png";
-import imgDummy2 from "@images/dummy-home-sce-present-2.png";
-import imgShowCase2 from "@images/dummy-sce-showcase-2.png";
+import imgBanner from "@images/Web-Brand-SCE Plus_1200x553.jpg";
+import imgDummy1 from "@images/Web-Brand-SCE Plus_582x700-02.jpg";
+import imgDummy2 from "@images/Web-Brand-SCE Plus_582x700-03.jpg";
+import imgShowCase2 from "@images/Web-Brand-SCE Plus_582x582.png";
 import imgIcon1 from "@images/dummy-standard-icon-1.png";
 import imgIcon2 from "@images/dummy-standard-icon-2.png";
 import imgIcon3 from "@images/dummy-standard-icon-3.png";
-import imgLogo from "@images/logo.svg";
-import imgAbout from "@images/about1.png";
+import imgLogo from "@images/logo.jpg";
+import imgAbout from "@images/670x440.jpg";
 import imgSwf from "@images/logo-switchflex.svg";
 import {
   FOLLOW_FACEBOOK_ROUTE_PATH,
@@ -48,7 +48,10 @@ export default function Home() {
               alt="Present Product"
             />
             <div className="px-3">
-              <p>SCE เครื่องดูดไรฝุ่น Mite Remover รุ่น MR1 - รับประกัน 1 ปี</p>
+              <p>
+                SCE Plus เตาปิ้งย่าง ชาบูไฟฟ้า 2in1 ทำความร้อนเร็ว รุ่น G18 -
+                รับประกัน 2 ปี
+              </p>
               <b className="text-xl text-primary">฿ 1,990.-</b>
             </div>
           </div>
@@ -63,29 +66,31 @@ export default function Home() {
             />
             <div className="px-3">
               <p>
-                SCE เครื่องหนีบและม้วนผม 2 in 1 ขนาดแกนม้วน 18 mm รุ่น TW1 -
-                รับประกัน 1 ปี
+                SCE Plus Vacuum Cleaner เครื่องดูดฝุ่น แรงดูดทรงพลัง 16000Pa
+                พร้อมหัวดูดเสริม 8 หัว รุ่น Dust Vc-Y - รับประกัน 2 ปี
               </p>
-              <b className="text-xl text-primary">฿ 999.-</b>
+              <b className="text-xl text-primary">฿ 1,590.-</b>
             </div>
           </div>
         </section>
 
         <section className="container flex flex-col px-3 xl:px-0">
           <div
-            className="bg-start mx-0 flex h-[550px] items-center rounded-3xl bg-cover md:bg-right xl:mx-20"
+            className="bg-start mx-0 flex h-[350px] items-center rounded-3xl bg-cover md:bg-right xl:mx-20"
             style={{
-              backgroundImage: "url(./images/dummy-sce-showcase-1.png)",
+              backgroundImage: "url(./images/Web-Brand-SCEPlus_1200x450.jpg)",
             }}
           >
-            <div className="w-full p-16 pb-20 text-primary md:w-1/2">
+            <div className="w-full p-16 pb-20 text-white md:w-1/2">
               <p className="mb-4 text-3xl">
-                SCE เครื่องดูดฝุ่น 1200 วัตต์ รุ่น XQ1 - รับประกัน 1 ปี
+                SCE Plus เตาอบไฟฟ้า 30 ลิตร รุ่น ALO1 - รับประกัน 2 ปี
               </p>
               <p className="mb-8 text-xl">
                 <small>
-                  มาพร้อมประโยชน์มากมาย ด้วยแรงดูดระดับไซโคลน กำลังไฟ 1,200
-                  วัตต์ แรงดัน 16,500 pa
+                  ช่วยให้คุณเพลิดเพลินไปกับการการทำอาหาร
+                  สามารถควบคุมอุณหภูมิได้อย่างอิสระ ด้านบนและด้านล่าง
+                  ปรับความร้อนได้ตั้งแต่ 100-220°C
+                  แผงด้านหลังแบบสะท้อนพื้นผิวช่วยให้รักษาความร้อนได้ดี
                 </small>
               </p>
               <button>
@@ -107,11 +112,15 @@ export default function Home() {
         <section className="container flex flex-wrap items-center justify-center px-5 md:px-0">
           <div className="order-2 space-y-6 px-3 text-primary md:order-1 md:basis-1/2 xl:px-0">
             <h2 className="text-3xl">
-              SCE Plus หม้อทอดไร้น้ำมัน 3 ลิตร รุ่น X-AB3
+              SCE Plus Handheld - Jetfan พัดลมพกพา แบต 2000 mAh รุ่น H-JF1 -
+              รับประกัน 2 ปี
             </h2>
             <p>
-              SCE Plus หม้อทอดไร้น้ำมัน 3 ลิตร วัสดุตะแกรงและหม้อทอด ชั้นเคลือบ
-              Non-Stick อย่างดี ปลอดภัยไร้กังวลน้ำมันไม่กระเด็นและประหยัดพลังงาน
+              พัดลมมือถือแบบขนาดเล็ก ชาร์จแบตได้ ลมแรง มีฟังก์ชันทำความเย็น
+              ด้วยเทคโนโลยีระบายความร้อน นวัตกรรมใหม่ โดยสร้างความเย็นบน Cooling
+              Pad หรือแผ่นสแตนเลสตรงกลางพัดลม พลังลมแรงขึ้น
+              มาพร้อมช่องปล่อยลมที่กว้างขึ้น กระจายลมได้มากขึ้น ความจุแบตเตอรี่
+              2000 mAh
             </p>
             <button className="underline-offset-4 hover:underline">
               <Link href={"/products"} className="flex items-center">
@@ -120,12 +129,12 @@ export default function Home() {
               </Link>
             </button>
           </div>
-          <div className="flex justify-center py-3 md:order-2 md:basis-1/2">
+          <div className="flex justify-center px-20 py-3 md:order-2 md:basis-1/2">
             <Image src={imgShowCase2} alt="Showcase" />
           </div>
         </section>
 
-        <section className="bg-[#eaf3ef] py-6">
+        <section className="bg-[#f3efea] py-6">
           <h2 className="pb-6 text-center text-3xl text-primary">
             <b>มาตรฐานของเรา</b>
           </h2>
@@ -160,7 +169,7 @@ export default function Home() {
           <div className="flex flex-wrap items-center justify-center">
             <div className="mb-5 flex items-center divide-x *:px-5 sm:mb-0">
               <h4 className="text-primary">ติดตามเรา</h4>
-              <Image className="h-auto" src={imgLogo} alt="logo" />
+              <Image className="w-28" src={imgLogo} alt="logo" />
             </div>
             <div className="space-x-3 *:size-12 *:rounded-full *:border-2 *:border-primary *:bg-primary *:text-white hover:[&_button]:bg-white hover:[&_button]:text-primary">
               <button>

@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
-import logo from "@images/logo.svg";
+import logo from "@images/logo.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import MenuList from "../menu/menu-list";
@@ -39,7 +39,7 @@ export default function Header() {
           <FontAwesomeIcon icon={faBars} className="size-4" />
         </button>
         <Link href={"/"}>
-          <Image src={logo} alt="logo" className="size-16" />
+          <Image src={logo} alt="logo" className="w-28" />
         </Link>
         <ul className="hidden w-full justify-evenly underline-offset-4 *:text-primary lg:flex hover:[&_a]:underline">
           <MenuList />
