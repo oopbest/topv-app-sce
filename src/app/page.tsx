@@ -18,7 +18,7 @@ import imgIcon2 from "@images/dummy-standard-icon-2.png";
 import imgIcon3 from "@images/dummy-standard-icon-3.png";
 import imgLogo from "@images/logo.jpg";
 import imgAbout from "@images/670x440.jpg";
-import imgSwf from "@images/logo-switchflex.svg";
+import imgSwf from "@images/alectric-2024.png"
 import {
   FOLLOW_FACEBOOK_ROUTE_PATH,
   FOLLOW_LINE_ROUTE_PATH,
@@ -256,7 +256,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Image src={imgSwf} alt="switchflex" />
+                    <Image src={imgSwf} alt="switchflex" className="w-20 border shadow rounded-lg hover:border-primary"/>
                   </a>
                 </div>
               </div>
