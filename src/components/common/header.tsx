@@ -39,12 +39,7 @@ export default function Header() {
           <FontAwesomeIcon icon={faBars} className="size-4" />
         </button>
         <Link href={"/"}>
-          <Image
-            src="/images/logo.jpg"
-            alt="Sce Logo"
-            width={130}
-            height={70}
-          />
+          <Image src={logo} alt="Sce Logo" width={130} height={70} />
         </Link>
         <ul className="hidden w-full justify-evenly underline-offset-4 *:text-primary lg:flex hover:[&_a]:underline">
           <MenuList />
