@@ -30,7 +30,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-10 bg-white shadow-md">
-      <nav className="container mx-auto flex w-full items-center lg:px-3 xl:px-0">
+      <nav className="container mx-auto flex w-full items-center py-4">
         <button
           id="hamberger-button"
           onClick={toggleMenu}
@@ -39,7 +39,12 @@ export default function Header() {
           <FontAwesomeIcon icon={faBars} className="size-4" />
         </button>
         <Link href={"/"}>
-          <Image src={logo} alt="logo" className="w-28" />
+          <Image
+            src="/images/logo.jpg"
+            alt="Sce Logo"
+            width={130}
+            height={70}
+          />
         </Link>
         <ul className="hidden w-full justify-evenly underline-offset-4 *:text-primary lg:flex hover:[&_a]:underline">
           <MenuList />
